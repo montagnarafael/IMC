@@ -97,3 +97,15 @@ button {
   font-family: 'Poppins', sans-serif;
 }
 
+@media (max-width: 480px) {
+
+  main {
+    padding: 10px;
+  }
+
+  .container {
+    transform: scale(0.85);
+    transform-origin: center;
+  }
+
+}
